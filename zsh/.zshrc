@@ -69,3 +69,4 @@ source $ZSH/oh-my-zsh.sh
 bindkey -v
 alias htop='echo "use btm instead"'
 export COLORTERM=truecolor
+export PATH=$PATH:$HOME/.local/share/texlive/2025/bin/x86_64-linux
