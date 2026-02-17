@@ -7,7 +7,7 @@ Use at your own risk!
 
 Clone this repo in the home directory:
 ```bash
-git clone git@github.com:phreaknik/.dotfiles.git
+git clone git@github.com:nullcopy/.dotfiles.git
 ```
 
 Run the install script to setup symlinks to the various dotfiles:
