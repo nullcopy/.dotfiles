@@ -72,3 +72,10 @@ export COLORTERM=truecolor
 export PATH=$PATH:$HOME/.local/share/texlive/2025/bin/x86_64-linux
 export PATH=$PATH:$HOME/.local/share/Sparrow/bin
 export PATH=$PATH:$HOME/.local/share/cargo/bin
+
+# Git worktree switcher
+cdwt() {
+  local selected
+  selected=$(git worktree list | fzf)
+  [ -n "$selected" ] && cd "$(echo "$selected" | awk '{print $1}')"
+}
