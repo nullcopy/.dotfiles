@@ -14,4 +14,7 @@ return {
   { import = "astrocommunity.markdown-and-latex.vimtex" },
 
   { import = "astrocommunity.color.transparent-nvim" },
+
+  -- import LSP mappings to use interactive picker w/ previews
+  { import = "astrocommunity.recipes.picker-lsp-mappings" },
 }
