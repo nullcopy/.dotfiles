@@ -109,7 +109,10 @@ offline_mode = true
 
 [theme]
 builtin = "Kanagawa"
+community_palette = "Oxocarbon"
 mode = "dark"
+source = "builtin"
+wallpaper_scheme = "m3-content"
 
     [theme.templates]
     enable_builtin_templates = false
@@ -119,18 +122,24 @@ mode = "dark"
 directory = "/home/nullcopy/Pictures/Wallpapers"
 
     [wallpaper.default]
-    path = "/home/nullcopy/Pictures/Wallpapers/liquidmetal.jpg"
+    path = "/home/nullcopy/Pictures/Wallpapers/tokyo-alley-at-night.jpg"
 
     [wallpaper.last]
-    path = "/home/nullcopy/Pictures/Wallpapers/liquidmetal.jpg"
+    path = "/home/nullcopy/Pictures/Wallpapers/tokyo-alley-at-night.jpg"
 
     [wallpaper.monitors.HDMI-A-1]
-    path = "/home/nullcopy/Pictures/Wallpapers/liquidmetal.jpg"
+    path = "/home/nullcopy/Pictures/Wallpapers/tokyo-alley-at-night.jpg"
 
     [[wallpaper.favorite]]
     builtin_palette = "Kanagawa"
     palette_source = "builtin"
     path = "/home/nullcopy/Pictures/Wallpapers/liquidmetal.jpg"
+    theme_mode = "dark"
+
+    [[wallpaper.favorite]]
+    builtin_palette = "Kanagawa"
+    palette_source = "builtin"
+    path = "/home/nullcopy/Pictures/Wallpapers/mountains-at-night.jpg"
     theme_mode = "dark"
 
 [weather]
